@@ -1,1 +1,1 @@
-(Test)[example.com]
+[Test](example.com)
