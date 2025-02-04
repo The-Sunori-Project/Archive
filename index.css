@@ -9,7 +9,7 @@ h1 {
 a {
     background-color: black;
     color: white;
-    border: white outset 2px;
+    border: white inset 2px;
     border-radius: 5px;
     margin: 10px;
     cursor: pointer;
@@ -18,10 +18,10 @@ a {
 }
 a:hover {
     transform: scale(1.05);
-    border: #00ff00 outset 2px;
+    border: #00ff00 inset 2px;
     color: #00ff00;
 }
 a:active{
-    border: #0077ff inset 2px;
+    border: #0077ff outset 2px;
     color: #0077ff;
 }
