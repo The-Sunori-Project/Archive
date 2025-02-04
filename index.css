@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+    user-select: none;
+}
+h1 {
+    text-align: center;
+}
+a {
+    background-color: black;
+    color: white;
+    border: white outset 2px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 2px;
+}
+a:hover {
+    transform: scale(1.05);
+    border: #00ff00 outset 2px;
+    color: #00ff00;
+}
+a:active{
+    border: #0077ff inset 2px;
+    color: #0077ff;
+}
